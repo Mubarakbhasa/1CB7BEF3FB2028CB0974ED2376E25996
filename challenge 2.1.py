@@ -30,6 +30,7 @@ account = BankAccount(account_number="12345678",
                       account_holder_name="Mubarak",
                       initial_balance=5000.0)
 account.display_balance()
-account.withdraw(200)
-account.deposit(200)
-account.display_balance()             
+account.withdraw(500.0)
+account.deposit(200.0)
+account.withdraw(20000.0)
+account.display_balance()
